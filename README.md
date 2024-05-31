@@ -195,10 +195,10 @@ Projemizin temel yapısı ve kodlarından sonra, sistemin farklı bileşenlerini
 Kullanıcı kimlik doğrulama sürecini gösteren diagramlar aşağıda yer almaktadır:
 
 
-[](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/1f568df2-c704-4394-a2ea-8f25fb1b35fe)
+![](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/1f568df2-c704-4394-a2ea-8f25fb1b35fe)
 
 
-[](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/5dfd51a3-0be5-4586-ac21-250e8ff79318)
+![](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/5dfd51a3-0be5-4586-ac21-250e8ff79318)
 
 
 ### Expense Diagramları
