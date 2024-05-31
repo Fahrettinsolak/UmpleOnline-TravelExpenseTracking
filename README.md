@@ -186,6 +186,49 @@ Projenin test sonuçlarını gösteren bir ekran görüntüsü. Toplamda 246 tes
 ![Test Sonuçları](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/527dd503-9f49-4982-90ed-7c4f231557fd)
 
 
+## Proje Yapısı ve Kodları
+
+Projemizin temel yapısı ve kodlarından sonra, sistemin farklı bileşenlerinin ilişkilerini gösteren Plant UML diagramları aşağıdaki gibidir:
+
+### Authentication Diagramları
+
+Kullanıcı kimlik doğrulama sürecini gösteren diagramlar aşağıda yer almaktadır:
+
+
+![Authentication Diagramları-1](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/1f568df2-c704-4394-a2ea-8f25fb1b35fe)
+
+
+![Authentication Diagramları-2]![autwrap](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/5dfd51a3-0be5-4586-ac21-250e8ff79318)
+
+
+### Expense Diagramları
+
+Harcamalarla ilgili işlemleri gösteren diagramlar aşağıda yer almaktadır:
+
+![Expense Diagramları](expense_diagram.png)
+
+### Trip Diagramları
+
+Seyahatlerle ilgili işlemleri ve ilişkileri gösteren diagramlar aşağıda yer almaktadır:
+
+![Trip Diagramları](trip_diagram.png)
+
+### GUI Diagramları
+
+Kullanıcı arayüzünü (GUI) tasarımını gösteren diagramlar aşağıda yer almaktadır:
+
+![GUI Diagramları](gui_diagram.png)
+
+### Plant UML Tam Hali
+
+Tüm bileşenlerin ve ilişkilerin bir arada olduğu Plant UML diagramının tamamı aşağıda yer almaktadır:
+
+![Plant UML Tam Hali](plantuml_full.png)
+
+Ekteki PDF dosyasında, Plant UML diagramlarının daha detaylı bir şekilde incelenebilir ve indirilebilir.
+
+
+
 
 
 # Overview
