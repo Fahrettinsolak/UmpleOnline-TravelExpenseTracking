@@ -1,15 +1,15 @@
 # Travel Expense Tracking
 
-# UmpleOnline Yapısı
+# UmpleOnline Structure
 
 
 ![umple diagram](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/468f82c8-da31-4804-a423-c1ef5d7a76c6)
 
-## Umple Online Hakkında
+## Umple Online About
 
-UmpleOnline, UML diyagramlarını yazılıma dönüştürmek ve model tabanlı geliştirme süreçlerini kolaylaştırmak için kullanılan bir araçtır. Umple, UML diyagramlarını kodla birleştirerek yazılım geliştirme sürecini hızlandırır ve daha okunabilir hale getirir.
+UmpleOnline is a tool used to transform UML diagrams into software and facilitate model-driven development processes. Umple combines UML diagrams with code to accelerate the software development process and make it more readable.
 
-Aşağıda, UmpleOnline'da oluşturulan bir örnek proje yapısının kodunu bulabilirsiniz. Bu kod, çeşitli yöneticilerin ve onların ilişkili nesnelerinin tanımlandığı bir yapıyı göstermektedir:
+Below, you can find the code of an example project structure created in UmpleOnline. This code demonstrates a structure where various managers and their associated objects are defined:
 
 ```java
 class MainWindow {
@@ -129,70 +129,70 @@ class Expense {
 
 ```
 
-## Proje Yapısı ve Wrapperlama İşlemi
+## Project Structure and Wrapping Process
 
-UmpleOnline'dan ürettiğim kodlarla projeyi geliştirerek, kodu daha modüler ve yönetilebilir hale getirmek için wrapper kullanımı gerçekleştirdim. Bu süreçte, projeyi iki ana kısımda ele aldım: Main (Ana) kısmı ve Test kısmı. Bu yapının her iki bölümüne ait görseller aşağıda sunulmuştur.
+Using the code generated from UmpleOnline, I developed the project and implemented wrapper usage to make the code more modular and manageable. During this process, I divided the project into two main sections: Main Part and Test Part. Below are the images corresponding to each section of this structure.
 
-### Proje Yapısı Main Kısmı
+### Main Part of the Project Structure
 
-Ana proje yapısı, UmpleOnline'dan elde edilen kodları kullanarak oluşturulan temel işlevselliği içerir. Bu bölümde, temel yöneticilerin (BudgetManager, ReportManager, TripManager, ExpenseManager ve AuthenticationManager) ve onların ilişkili nesnelerinin tanımları bulunmaktadır. Bu sınıflar, uygulamanın ana işlevlerini yönetir ve kullanıcı etkileşimlerini düzenler.
+The main project structure encompasses the fundamental functionality created using the code obtained from UmpleOnline. In this section, you'll find the definitions of core managers (BudgetManager, ReportManager, TripManager, ExpenseManager, and AuthenticationManager) and their associated objects. These classes manage the primary functions of the application and regulate user interactions.
 
 
 ![Proje Yapısı Main Kısmı](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/78c44c51-1b16-4884-ac89-b7f573e139a7)
 
-### Proje Yapısı Test Kısmı
+### Project Structure Test Section
 
-Test kısmı, ana proje yapısının doğru çalıştığını doğrulamak için birim testlerin ve diğer testlerin yer aldığı bölümdür. Bu bölümde, her yöneticinin ve onların metodlarının doğru çalıştığından emin olmak için çeşitli test senaryoları uygulanır. Testlerin amacı, uygulamanın her bir parçasının beklenen şekilde çalıştığını garanti altına almaktır.
+The test part comprises unit tests and other tests to validate that the main project structure functions correctly. In this section, various test scenarios are implemented to ensure that each manager and its methods operate accurately. The purpose of these tests is to guarantee that every component of the application works as expected.
 
 ![Proje Yapısı Test Kısmı](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/7d9e884a-c671-41c5-b0c7-2e443ed41662)
 
 
-Projenin bu iki ana kısmı, yazılım geliştirme sürecinde hem kodun işlevselliğini hem de kalitesini artırmak için kritik öneme sahiptir. Main kısmı, uygulamanın temel işlevselliğini sağlarken, Test kısmı, bu işlevselliğin hatasız ve güvenilir olmasını sağlamaya yardımcı olur.
+These two main sections of the project are crucial in enhancing both the functionality and quality of the code during the software development process. While the Main part provides the fundamental functionality of the application, the Test part helps ensure that this functionality is error-free and reliable.
 
-Proje yapısının ana kısmı, çeşitli yönetici sınıflarını (BudgetManager, ReportManager, TripManager, ExpenseManager, AuthenticationManager) içerir ve her biri ilgili işlevleri gerçekleştirmek üzere tasarlanmıştır. MainWindow sınıfı, kullanıcı etkileşimlerini yönetir ve çeşitli ekranlar arasında geçiş sağlar.
+The main part of the project structure includes various manager classes (BudgetManager, ReportManager, TripManager, ExpenseManager, AuthenticationManager), each designed to perform their respective functions. The MainWindow class manages user interactions and facilitates transitions between various screens.
 
-Test yapısı, birim testleri ve entegrasyon testlerini içerir. Her bir yönetici sınıfı için kapsamlı testler yazılmıştır. Testler, yazılımın hata ayıklamasını kolaylaştırmak ve kalitesini artırmak için tasarlanmıştır.
+The testing structure encompasses unit tests and integration tests. Comprehensive tests have been written for each manager class. These tests are designed to facilitate software debugging and improve its quality.
 
 
-## Proje Görselleri ve Açıklamaları
+## Project Images and Descriptions
 
-### Login Ekranı
-Projeyi başlatmak için kullanılan giriş ekranıdır. Kullanıcı adı ve şifre girilerek sisteme erişim sağlanır.
+### Login Screen
+This is the login screen used to start the project. Access to the system is granted by entering a username and password.
 
 ![Login Ekranı](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/0eb899c0-c614-4194-aa20-288a831e90a2)
 
 
-### Database Bilgilendirme
-Projede kullanılan veritabanıyla ilgili bilgilendirme. Veritabanı SQLite ile otomatik olarak oluşturulur ve kullanıcı verilerini saklar.
+### Database Information
+Information about the database used in the project. The database is automatically created using SQLite and stores user data.
 
 ![Database Bilgilendirme](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/29905706-c08d-475d-b0d6-172a590fedac)
 
 
-### Umple Online Üretilen Model
-Umple Online'dan üretilen modelin SQL sınıfının görüntüsü. Bu sınıf, projenin veri tabanı işlemlerini yönetir.
+### Umple Online Produced Model
+The view of the SQL class generated from Umple Online. This class manages the database operations of the project.
 
 ![Umple Online Üretilen Model](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/00dd60c2-25ef-4197-bef0-5df04cc5fd72)
 
 
 ### Test Coverage
-Testlerin kapsama oranını gösteren bir ekran görüntüsü. Kapsama oranı, test edilen kodun ne kadarının testlerle kaplandığını gösterir. Yüksek bir kapsama oranı, yazılımın daha sağlam olduğunu gösterir.
+A screenshot showing the coverage percentage of the tests. Coverage rate indicates how much of the tested code is covered by tests. A higher coverage rate indicates a more robust software.
 
 ![Test Coverage](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/59fc341c-2a4e-4d37-bae2-76df03d6c803)
 
 
-### Test Sonuçları
-Projenin test sonuçlarını gösteren bir ekran görüntüsü. Toplamda 246 testin başarıyla geçtiği görülmektedir.
+### Test Results
+A screenshot displaying the test results of the project. It shows that a total of 246 tests have passed successfully.
 
 ![Test Sonuçları](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/527dd503-9f49-4982-90ed-7c4f231557fd)
 
 
-## Proje Yapısı ve Kodları
+## Project Structure and Codes
 
-Projemizin temel yapısı ve kodlarından sonra, sistemin farklı bileşenlerinin ilişkilerini gösteren Plant UML diagramları aşağıdaki gibidir:
+After the basic structure and codes of our project, below are the Plant UML diagrams illustrating the relationships between different components of the system:
 
-### Authentication Diagramları
+### Authentication Diagrams
 
-Kullanıcı kimlik doğrulama sürecini gösteren diagramlar aşağıda yer almaktadır:
+The diagrams illustrating the user authentication process are presented below:
 
 
 ![](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/1f568df2-c704-4394-a2ea-8f25fb1b35fe)
@@ -201,9 +201,9 @@ Kullanıcı kimlik doğrulama sürecini gösteren diagramlar aşağıda yer alma
 ![](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/5dfd51a3-0be5-4586-ac21-250e8ff79318)
 
 
-### Expense Diagramları
+### Expense Diagrams
 
-Harcamalarla ilgili işlemleri gösteren diagramlar aşağıda yer almaktadır:
+The diagrams depicting operations related to expenses are provided below:
 
 
 ![](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/10fa7afa-18df-4142-90b2-6ac74b5c5c1f)
@@ -214,9 +214,9 @@ Harcamalarla ilgili işlemleri gösteren diagramlar aşağıda yer almaktadır:
 
 ![](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/fab7e9a0-cb1f-400e-b872-80f9ecd20541)
 
-### Trip Diagramları
+### Trip Diagrams
 
-Seyahatlerle ilgili işlemleri ve ilişkileri gösteren diagramlar aşağıda yer almaktadır:
+The diagrams illustrating operations and relationships related to trips are displayed below:
 
 
 ![](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/c85627bf-d4c6-4fe4-af61-7b8b17410c7d)
@@ -225,83 +225,84 @@ Seyahatlerle ilgili işlemleri ve ilişkileri gösteren diagramlar aşağıda ye
 ![](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/2eab78dc-0d66-432d-9df2-db2b7a93d6f8)
 
 
-### GUI Diagramları
+### GUI Diagrams
 
-Kullanıcı arayüzünü (GUI) tasarımını gösteren diagramlar aşağıda yer almaktadır:
+The diagrams showcasing the graphical user interface (GUI) design are presented below:
 
 
 ![]![screen](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/da3c3268-7a09-4f8d-95b3-8b19d1473890)
 
 
-### Plant UML Tam Hali
+### Plant UML Full Version
 
-Tüm bileşenlerin ve ilişkilerin bir arada olduğu Plant UML diagramının tamamı aşağıda yer almaktadır:
+Below is the complete Plant UML diagram showing all components and relationships:
 
 ![](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/6ad3e445-2beb-42cc-bb5f-78ceca445e5f)
 
 
-Ekteki PDF dosyasında, Plant UML diagramlarının daha detaylı bir şekilde incelenebilir ve indirilebilir.
+In the attached PDF file, you can examine the Plant UML diagrams in more detail and download them.
 
 
 [plant uml diagramı.pdf](https://github.com/user-attachments/files/15510960/plant.uml.diagrami.pdf)
 
 
 
-## Figma Tasarımları
+## Figma Designs
 
-Projemizin tasarımlarını Figma kullanarak oluşturduk ve bu tasarımları Eclipse üzerinde Java Swing kullanarak projemize dahil ettik. Aşağıda Figma tasarımlarımızı görebilirsiniz:
+We created the designs of our project using Figma and incorporated these designs into our project using Java Swing in Eclipse. Below, you can see our Figma designs:
 
-### Login-Register Sayfası
+### Login-Register Page
 
-Giriş ve kayıt işlemlerini içeren sayfanın tasarımı:
+
+Design of the page containing login and registration processes:
 
 
 ![](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/21d3cc22-f752-4f14-b1be-e2ca36ffc650)
 
 
-### Main App Sayfası
+### Main App Page
 
-Ana uygulama sayfasının tasarımı, kullanıcı arayüzünün ana bileşenlerini içerir:
+Design of the main application page, including the main components of the user interface:
 
 
 ![](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/d83376e2-6510-4539-8f2a-382284518a7f)
 
 
-### Trip Management Sayfası
+### Trip Management Page
 
-Seyahat yönetimi için kullanılan sayfanın tasarımı, seyahatlerin eklenmesi, görüntülenmesi ve düzenlenmesini içerir:
+Design of the page used for trip management, including functionalities for adding, viewing, and editing trips:
 
 
 ![](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/63bf747c-3555-4c30-8cb5-1cbe30af0001)
 
 
-### Expense Management Sayfası
+### Expense Management Page
 
-Harcama yönetimi için kullanılan sayfanın tasarımı, harcamaların eklenmesi, görüntülenmesi ve düzenlenmesini içerir:
+Design of the page used for expense management, including functionalities for adding, viewing, and editing expenses:
 
 
 ![](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/96e0d5d2-cdbc-4901-8777-8b70fbdea869)
 
 
-### Budget Management Sayfası
+### Budget Management Page
 
-Bütçe yönetimi için kullanılan sayfanın tasarımı, bütçelerin ayarlanması, görüntülenmesi ve düzenlenmesini içerir:
+Design of the page used for budget management, including functionalities for setting, viewing, and editing budgets:
 
 
 ![](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/5e51b443-c619-4570-a2ab-39aa1a4ab028)
 
 
-### Report Sayfası
+### Report Page
 
-Rapor oluşturma ve görüntüleme işlemleri için kullanılan sayfanın tasarımı:
+Design of the page used for report creation and viewing operations:
 
 
 ![](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/16183900-b10f-4839-a3b4-d81e633cf35e)
 
 
-### Tüm Yapıların Figma Görüntüsü
+### Figma Overview of All Structures
 
-Tüm tasarımların bir arada olduğu Figma görüntüsü:
+Figma view containing all designs together:
 
 
 ![](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/7c9ab0ed-1e32-49bc-a239-83be13f2f1be)
