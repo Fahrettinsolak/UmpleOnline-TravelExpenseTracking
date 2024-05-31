@@ -154,6 +154,39 @@ Proje yapısının ana kısmı, çeşitli yönetici sınıflarını (BudgetManag
 Test yapısı, birim testleri ve entegrasyon testlerini içerir. Her bir yönetici sınıfı için kapsamlı testler yazılmıştır. Testler, yazılımın hata ayıklamasını kolaylaştırmak ve kalitesini artırmak için tasarlanmıştır.
 
 
+## Proje Görselleri ve Açıklamaları
+
+### Login Ekranı
+Projeyi başlatmak için kullanılan giriş ekranıdır. Kullanıcı adı ve şifre girilerek sisteme erişim sağlanır.
+
+![Login Ekranı](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/0eb899c0-c614-4194-aa20-288a831e90a2)
+
+
+### Database Bilgilendirme
+Projede kullanılan veritabanıyla ilgili bilgilendirme. Veritabanı SQLite ile otomatik olarak oluşturulur ve kullanıcı verilerini saklar.
+
+![Database Bilgilendirme](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/29905706-c08d-475d-b0d6-172a590fedac)
+
+
+### Umple Online Üretilen Model
+Umple Online'dan üretilen modelin SQL sınıfının görüntüsü. Bu sınıf, projenin veri tabanı işlemlerini yönetir.
+
+![Umple Online Üretilen Model]![sql](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/00dd60c2-25ef-4197-bef0-5df04cc5fd72)
+
+
+### Test Coverage
+Testlerin kapsama oranını gösteren bir ekran görüntüsü. Kapsama oranı, test edilen kodun ne kadarının testlerle kaplandığını gösterir. Yüksek bir kapsama oranı, yazılımın daha sağlam olduğunu gösterir.
+
+![Test Coverage]![covargaae](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/59fc341c-2a4e-4d37-bae2-76df03d6c803)
+
+
+### Test Sonuçları
+Projenin test sonuçlarını gösteren bir ekran görüntüsü. Toplamda 246 testin başarıyla geçtiği görülmektedir.
+
+![Test Sonuçları]![test](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/527dd503-9f49-4982-90ed-7c4f231557fd)
+
+
+
 
 # Overview
 
