@@ -129,8 +129,29 @@ class Expense {
 
 ```
 
+## Proje Yapısı ve Wrapperlama İşlemi
+
+UmpleOnline'dan ürettiğim kodlarla projeyi geliştirerek, kodu daha modüler ve yönetilebilir hale getirmek için wrapper kullanımı gerçekleştirdim. Bu süreçte, projeyi iki ana kısımda ele aldım: Main (Ana) kısmı ve Test kısmı. Bu yapının her iki bölümüne ait görseller aşağıda sunulmuştur.
+
+### Proje Yapısı Main Kısmı
+
+Ana proje yapısı, UmpleOnline'dan elde edilen kodları kullanarak oluşturulan temel işlevselliği içerir. Bu bölümde, temel yöneticilerin (BudgetManager, ReportManager, TripManager, ExpenseManager ve AuthenticationManager) ve onların ilişkili nesnelerinin tanımları bulunmaktadır. Bu sınıflar, uygulamanın ana işlevlerini yönetir ve kullanıcı etkileşimlerini düzenler.
 
 
+![Proje Yapısı Main Kısmı](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/78c44c51-1b16-4884-ac89-b7f573e139a7)
+
+### Proje Yapısı Test Kısmı
+
+Test kısmı, ana proje yapısının doğru çalıştığını doğrulamak için birim testlerin ve diğer testlerin yer aldığı bölümdür. Bu bölümde, her yöneticinin ve onların metodlarının doğru çalıştığından emin olmak için çeşitli test senaryoları uygulanır. Testlerin amacı, uygulamanın her bir parçasının beklenen şekilde çalıştığını garanti altına almaktır.
+
+![Proje Yapısı Test Kısmı](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/7d9e884a-c671-41c5-b0c7-2e443ed41662)
+
+
+Projenin bu iki ana kısmı, yazılım geliştirme sürecinde hem kodun işlevselliğini hem de kalitesini artırmak için kritik öneme sahiptir. Main kısmı, uygulamanın temel işlevselliğini sağlarken, Test kısmı, bu işlevselliğin hatasız ve güvenilir olmasını sağlamaya yardımcı olur.
+
+Proje yapısının ana kısmı, çeşitli yönetici sınıflarını (BudgetManager, ReportManager, TripManager, ExpenseManager, AuthenticationManager) içerir ve her biri ilgili işlevleri gerçekleştirmek üzere tasarlanmıştır. MainWindow sınıfı, kullanıcı etkileşimlerini yönetir ve çeşitli ekranlar arasında geçiş sağlar.
+
+Test yapısı, birim testleri ve entegrasyon testlerini içerir. Her bir yönetici sınıfı için kapsamlı testler yazılmıştır. Testler, yazılımın hata ayıklamasını kolaylaştırmak ve kalitesini artırmak için tasarlanmıştır.
 
 
 
