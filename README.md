@@ -205,7 +205,14 @@ Kullanıcı kimlik doğrulama sürecini gösteren diagramlar aşağıda yer alma
 
 Harcamalarla ilgili işlemleri gösteren diagramlar aşağıda yer almaktadır:
 
-![Expense Diagramları](expense_diagram.png)
+
+![](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/10fa7afa-18df-4142-90b2-6ac74b5c5c1f)
+
+
+![](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/42eb9dbf-d9b0-46d2-839e-f29d7512e2f8)
+
+
+![](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/fab7e9a0-cb1f-400e-b872-80f9ecd20541)
 
 ### Trip Diagramları
 
