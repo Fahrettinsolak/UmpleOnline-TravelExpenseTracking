@@ -171,19 +171,19 @@ Projede kullanılan veritabanıyla ilgili bilgilendirme. Veritabanı SQLite ile 
 ### Umple Online Üretilen Model
 Umple Online'dan üretilen modelin SQL sınıfının görüntüsü. Bu sınıf, projenin veri tabanı işlemlerini yönetir.
 
-![Umple Online Üretilen Model]![sql](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/00dd60c2-25ef-4197-bef0-5df04cc5fd72)
+![Umple Online Üretilen Model](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/00dd60c2-25ef-4197-bef0-5df04cc5fd72)
 
 
 ### Test Coverage
 Testlerin kapsama oranını gösteren bir ekran görüntüsü. Kapsama oranı, test edilen kodun ne kadarının testlerle kaplandığını gösterir. Yüksek bir kapsama oranı, yazılımın daha sağlam olduğunu gösterir.
 
-![Test Coverage]![covargaae](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/59fc341c-2a4e-4d37-bae2-76df03d6c803)
+![Test Coverage](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/59fc341c-2a4e-4d37-bae2-76df03d6c803)
 
 
 ### Test Sonuçları
 Projenin test sonuçlarını gösteren bir ekran görüntüsü. Toplamda 246 testin başarıyla geçtiği görülmektedir.
 
-![Test Sonuçları]![test](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/527dd503-9f49-4982-90ed-7c4f231557fd)
+![Test Sonuçları](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/527dd503-9f49-4982-90ed-7c4f231557fd)
 
 
 
