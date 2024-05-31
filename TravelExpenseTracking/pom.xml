@@ -163,32 +163,30 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<configuration>
 			<includes>
-			    <include>**/app/MainApp.java</include>
-			    <include>**/app/RegisterScreen.java</include>
-			    <include>**/app/ReportScreen.java</include>
-			    <include>**/app/TripManagementScreen.java</include>
-			    <include>**/lib/database/DatabaseHelper.java</include>
-			    <include>**/lib/database/TripDAO.java</include>
-			    <include>**/lib/database/UserCredentialDAO.java</include>
-			    <include>**/lib/models/BudgetWrapper.java</include>
-			    <include>**/lib/models/ExpenseWrapper.java</include>
-			    <include>**/lib/models/ReportWrapper.java</include>
-			    <include>**/lib/models/TripWrapper.java</include>
-			    <include>**/lib/models/UserCredentialWrapper.java</include>
-			    <include>**/lib/wrappers/AuthenticationManagerWrapper.java</include>
-			    <include>**/lib/wrappers/BudgetManagerWrapper.java</include>
-			    <include>**/lib/wrappers/ExpenseManagerWrapper.java</include>
-			    <include>**/lib/wrappers/ReportManagerWrapper.java</include>
-			    <include>**/lib/wrappers/TripManagerWrapper.java</include>
-			    <include>**/umple/AuthenticationManager.java</include>
-			    <include>**/umple/Budget.java</include>
-			    <include>**/umple/BudgetManager.java</include>
-			    <include>**/umple/Expense.java</include>
-			    <include>**/umple/ExpenseManager.java</include>
-			    <include>**/umple/Report.java</include>
-			    <include>**/umple/ReportManager.java</include>
-			    <include>**/umple/Trip.java</include>
-			    <include>**/umple/TripManager.java</include>
+			    <include>**/**app/MainAppTest.java</include> 
+			    <include>**/**app/ReportScreenTest.java</include>
+			    <include>**/**app/TripManagementScreenTest.java</include>
+			    <include>**/**app/BudgetManagementScreenTest.java</include>
+			    <include>**/**app/ExpenseManagementScreenTest.java</include>
+			    <include>**/**app/MainTest.java</include>
+			    <include>**/**lib/database/DatabaseHelperTest.java</include>
+			    <include>**/**lib/database/TripDAOTest.java</include>
+			    <include>**/**lib/database/UserCredentialDAOTest.java</include>
+			    <include>**/**lib/models/BudgetWrapperTest.java</include>
+			    <include>**/**lib/models/ExpenseWrapperTest.java</include>
+			    <include>**/**lib/models/ReportWrapperTest.java</include>
+			    <include>**/**lib/models/TripWrapperTest.java</include>
+			    <include>**/**lib/models/UserCredentialWrapperTest.java</include>
+			    <include>**/**lib/wrappers/AuthenticationManagerWrapperTest.java</include>
+			    <include>**/**lib/wrappers/BudgetManagerWrapperTest.java</include>
+			    <include>**/**lib/wrappers/ExpenseManagerWrapperTest.java</include>
+			    <include>**/**lib/wrappers/ReportManagerWrapperTest.java</include>
+			    <include>**/**lib/wrappers/TripManagerWrapperTest.java</include>
+			    <include>**/**umple/ReportTest.java</include>
+			    <include>**/**umple/ReportManagerTest.java</include>
+			    <include>**/**umple/TripTest.java</include>
+			    <include>**/**umple/TripManagerTest.java</include>
+			    <include>**/**umple/UserCredentialTest.java</include>
 			</includes>
 				</configuration>
 			</plugin>
