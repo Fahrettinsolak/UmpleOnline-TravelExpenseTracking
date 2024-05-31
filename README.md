@@ -247,6 +247,69 @@ Ekteki PDF dosyasında, Plant UML diagramlarının daha detaylı bir şekilde in
 
 
 
+## Figma Tasarımları
+
+Projemizin tasarımlarını Figma kullanarak oluşturduk ve bu tasarımları Eclipse üzerinde Java Swing kullanarak projemize dahil ettik. Aşağıda Figma tasarımlarımızı görebilirsiniz:
+
+### Login-Register Sayfası
+
+Giriş ve kayıt işlemlerini içeren sayfanın tasarımı:
+
+
+![](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/21d3cc22-f752-4f14-b1be-e2ca36ffc650)
+
+
+### Main App Sayfası
+
+Ana uygulama sayfasının tasarımı, kullanıcı arayüzünün ana bileşenlerini içerir:
+
+
+![](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/d83376e2-6510-4539-8f2a-382284518a7f)
+
+
+### Trip Management Sayfası
+
+Seyahat yönetimi için kullanılan sayfanın tasarımı, seyahatlerin eklenmesi, görüntülenmesi ve düzenlenmesini içerir:
+
+
+![](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/63bf747c-3555-4c30-8cb5-1cbe30af0001)
+
+
+### Expense Management Sayfası
+
+Harcama yönetimi için kullanılan sayfanın tasarımı, harcamaların eklenmesi, görüntülenmesi ve düzenlenmesini içerir:
+
+
+![](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/96e0d5d2-cdbc-4901-8777-8b70fbdea869)
+
+
+### Budget Management Sayfası
+
+Bütçe yönetimi için kullanılan sayfanın tasarımı, bütçelerin ayarlanması, görüntülenmesi ve düzenlenmesini içerir:
+
+
+![](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/5e51b443-c619-4570-a2ab-39aa1a4ab028)
+
+
+### Report Sayfası
+
+Rapor oluşturma ve görüntüleme işlemleri için kullanılan sayfanın tasarımı:
+
+
+![](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/16183900-b10f-4839-a3b4-d81e633cf35e)
+
+
+### Tüm Yapıların Figma Görüntüsü
+
+Tüm tasarımların bir arada olduğu Figma görüntüsü:
+
+
+![](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/7c9ab0ed-1e32-49bc-a239-83be13f2f1be)
+
+
+
+
+
 # Overview
 
 You will generate eclipse maven project with Junit4 from CLI and. Also you will generate jar and then you will run your application. For more information you can check examples [Maven – Maven in 5 Minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html) and [TheNEXUS | A Community Project](https://books.sonatype.com/mvnref-book/reference/index.html)
