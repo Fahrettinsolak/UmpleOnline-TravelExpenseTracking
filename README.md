@@ -218,23 +218,32 @@ Harcamalarla ilgili işlemleri gösteren diagramlar aşağıda yer almaktadır:
 
 Seyahatlerle ilgili işlemleri ve ilişkileri gösteren diagramlar aşağıda yer almaktadır:
 
-![Trip Diagramları](trip_diagram.png)
+
+![](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/c85627bf-d4c6-4fe4-af61-7b8b17410c7d)
+
+
+![](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/2eab78dc-0d66-432d-9df2-db2b7a93d6f8)
+
 
 ### GUI Diagramları
 
 Kullanıcı arayüzünü (GUI) tasarımını gösteren diagramlar aşağıda yer almaktadır:
 
-![GUI Diagramları](gui_diagram.png)
+
+![]![screen](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/da3c3268-7a09-4f8d-95b3-8b19d1473890)
+
 
 ### Plant UML Tam Hali
 
 Tüm bileşenlerin ve ilişkilerin bir arada olduğu Plant UML diagramının tamamı aşağıda yer almaktadır:
 
-![Plant UML Tam Hali](plantuml_full.png)
+![](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/6ad3e445-2beb-42cc-bb5f-78ceca445e5f)
+
 
 Ekteki PDF dosyasında, Plant UML diagramlarının daha detaylı bir şekilde incelenebilir ve indirilebilir.
 
 
+[plant uml diagramı.pdf](https://github.com/user-attachments/files/15510960/plant.uml.diagrami.pdf)
 
 
 
