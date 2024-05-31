@@ -1,4 +1,138 @@
-# eclipse-java-maven-template
+# Travel Expemse Tracking
+
+# UmpleOnline Yapısı
+
+
+![Umple Diagram](![umple diagram](https://github.com/Fahrettinsolak/ce205-final-fahrettin-solak-java/assets/79358514/468f82c8-da31-4804-a423-c1ef5d7a76c6))
+
+## Umple Online Hakkında
+
+UmpleOnline, UML diyagramlarını yazılıma dönüştürmek ve model tabanlı geliştirme süreçlerini kolaylaştırmak için kullanılan bir araçtır. Umple, UML diyagramlarını kodla birleştirerek yazılım geliştirme sürecini hızlandırır ve daha okunabilir hale getirir.
+
+Aşağıda, UmpleOnline'da oluşturulan bir örnek proje yapısının kodunu bulabilirsiniz. Bu kod, çeşitli yöneticilerin ve onların ilişkili nesnelerinin tanımlandığı bir yapıyı göstermektedir:
+
+```java
+class MainWindow {
+  1 -- * BudgetManager budgetManager;
+  1 -- * ReportManager reportManager;
+  1 -- * TripManager tripManager;
+  1 -- * ExpenseManager expenseManager;
+  1 -- * AuthenticationManager authManager;
+
+  void showLoginScreen() {}
+  void showBudgetManagementScreen() {}
+  void showReportScreen() {}
+  void showTripManagementScreen() {}
+  void showExpenseManagementScreen() {}
+  void showRegisterScreen() {}
+  void logout() {}
+}
+
+class AuthenticationManager {
+  1 -- * UserCredential userCredentials;
+  
+  boolean login(String username, String password) {}
+  void logout(String username) {}
+  boolean register(String username, String password) {}
+  boolean changePassword(String username, String oldPassword, String newPassword) {}
+}
+
+class UserCredential {
+  String username;
+  String password;
+}
+
+class BudgetManager {
+  1 -- * Budget budgets;
+  
+  void setBudget(String username, Budget budget) {}
+  Budget viewBudget(String username) {}
+  void deleteBudget(String username) {}
+}
+
+class ReportManager {
+  1 -- * Report reports;
+  
+  Report generateReport(String username) {}
+  Report viewReport(UUID reportId) {}
+  void deleteReport(UUID reportId) {}
+}
+
+class TripManager {
+  1 -- * Trip trips;
+  
+  void createTrip(String username, Trip trip) {}
+  Trip viewTrip(UUID tripId) {}
+  void deleteTrip(UUID tripId) {}
+}
+
+class ExpenseManager {
+  1 -- * Expense expenses;
+  
+  void addExpense(String username, Expense expense) {}
+  ListExpense viewExpenses(String username) {}
+  void deleteExpense(UUID expenseId) {}
+}
+
+class Budget {
+  double amount;
+  String currency;
+  String description;
+  String type;
+  
+  void updateDescription(String description) {}
+  void updateAmount(double amount) {}
+  void updateCurrency(String currency) {}
+  void updateType(String type) {}
+}
+
+class Report {
+  UUID reportId;
+  String content;
+  Date creationDate;
+  
+  void updateContent(String content) {}
+  void updateCreationDate(Date creationDate) {}
+}
+
+class Trip {
+  UUID tripId;
+  String destination;
+  Date startDate;
+  Date endDate;
+  String[] accommodations;
+  String[] transportation;
+  String[] activities;
+  
+  void updateDestination(String destination) {}
+  void updateStartDate(Date startDate) {}
+  void updateEndDate(Date endDate) {}
+  void updateAccommodations(String[] accommodations) {}
+  void updateTransportation(String[] transportation) {}
+  void updateActivities(String[] activities) {}
+}
+
+class Expense {
+  UUID expenseId;
+  Date date;
+  double amount;
+  String currency;
+  String category;
+  String paymentMethod;
+  
+  void updateDate(Date date) {}
+  void updateAmount(double amount) {}
+  void updateCurrency(String currency) {}
+  void updateCategory(String category) {}
+  void updatePaymentMethod(String paymentMethod) {}
+}
+
+
+
+
+
+
+
 
 # Overview
 
